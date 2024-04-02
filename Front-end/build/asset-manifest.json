@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.39232fed.css",
+    "main.js": "/static/js/main.f2007f81.js",
+    "static/js/787.34cdd070.chunk.js": "/static/js/787.34cdd070.chunk.js",
+    "static/media/shop.jpg": "/static/media/shop.73a620eeb8b1bdeca52c.jpg",
+    "static/media/hairstyle2.jpg": "/static/media/hairstyle2.371628b3f82a4a728ea8.jpg",
+    "static/media/bg.png": "/static/media/bg.819fcb6a45233fb57c1f.png",
+    "static/media/hairstyle1-bg.jpg": "/static/media/hairstyle1-bg.c639321945b99b3d9bf0.jpg",
+    "static/media/bg2.png": "/static/media/bg2.fcd33cf176b8f6bbcb29.png",
+    "index.html": "/index.html",
+    "main.39232fed.css.map": "/static/css/main.39232fed.css.map",
+    "main.f2007f81.js.map": "/static/js/main.f2007f81.js.map",
+    "787.34cdd070.chunk.js.map": "/static/js/787.34cdd070.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39232fed.css",
+    "static/js/main.f2007f81.js"
+  ]
+}
