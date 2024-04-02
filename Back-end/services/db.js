@@ -1,5 +1,8 @@
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost:27017/salon')
+// mongoose.connect('mongodb://localhost:27017/salon')
+mongoose.connect('mongodb+srv://bejese9468:wUpFuyMSizSGQaQt@cluster0.wyms4nn.mongodb.net/beutyparler')
+
+
 
 const Price = mongoose.model('Price',
 {
