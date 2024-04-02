@@ -9,6 +9,11 @@ server.listen(8000,()=>{
 })
 
 
+server.get("/", (req, res) => {
+    res.send("Beauty Parlor!!");
+  });
+
+
 //signup 
 server.post('/signup',(req,res)=>{
     logic.signup(req.body.uname,req.body.email,req.body.password)
