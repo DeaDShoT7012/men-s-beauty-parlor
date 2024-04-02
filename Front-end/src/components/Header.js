@@ -19,7 +19,7 @@ function Header() {
     email,
     password
   }
-  const result = await axios.post('http://localhost:8000/signup',body)
+  const result = await axios.post('signup',body)
   console.log(result);
   alert(result.data.message)
  }
@@ -30,7 +30,7 @@ function Header() {
     email,
     password
   }
-  const result = await axios.post('http://localhost:8000/login',body)
+  const result = await axios.post('login',body)
   console.log(result);
   localStorage.setItem('name',result.data.uname)
   localStorage.setItem('email',result.data.email)

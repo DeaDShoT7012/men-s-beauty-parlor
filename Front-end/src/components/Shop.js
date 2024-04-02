@@ -29,13 +29,13 @@ function Shop() {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = async (id) =>{
-        const result = await axios.get('http://localhost:8000/view-product/'+id)
+        const result = await axios.get('view-product/'+id)
         setviewProduct(result.data.product);
         setShow(true);
     } 
 
     const handleCart = async (item) =>{
-        const result = await axios.post('http://localhost:8000/addtocart',item)
+        const result = await axios.post('addtocart',item)
         console.log(result);
         alert(result.data.message)
         
@@ -43,17 +43,17 @@ function Shop() {
     }
 
     const fetchData = async ()=>{
-        const result = await axios.get('http://localhost:8000/get-products')
+        const result = await axios.get('get-products')
         setallProducts(result.data.products)
     }
     
     const sorting = async(e)=>{
-        const result = await axios.get('http://localhost:8000/get-products')
+        const result = await axios.get('get-products')
         setallProducts(result.data.products.sort((a,b)=>a.price>b.price?1:-1))
     }
 
     const sorting2 = async(e)=>{
-        const result = await axios.get('http://localhost:8000/get-products')
+        const result = await axios.get('get-products')
         setallProducts(result.data.products.sort((a,b)=>a.price<b.price?1:-1))
     }
 

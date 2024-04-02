@@ -14,12 +14,12 @@ function Home() {
   const handleShow = () => setShow(true);
 
   const fetchData = async ()=>{
- const result =   await axios.get('http://localhost:8000/get-price')
+ const result =   await axios.get('get-price')
  setallPrice(result.data.price);
   }
 
   const fetchBarber = ()=> async()=>{
-    const result = await axios.get('http://localhost:8000/get-barbers')
+    const result = await axios.get('get-barbers')
     console.log(result);
   }
 
@@ -85,7 +85,7 @@ function Home() {
         <h5>FOR CONNOISSEURS</h5>
               <h1>ROYAL SHAVING</h1>
         </div>
-      </div>
+      </div>  
 
       <div className='card1'>
         <img className='imgbox' src='https://img.freepik.com/premium-photo/barber-shop-equipment-barbershop-concept-serious-bearded-man-holds-razor-looking-through-paper_378307-9366.jpg?size=626&ext=jpg&ga=GA1.2.723237688.1674969810&semt=ais'/> 

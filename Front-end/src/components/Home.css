@@ -90,8 +90,6 @@
     z-index: 2;
     transition: 0.5s all;
     opacity: 0;
-
-
 }
 .card1:hover::before{
     opacity: 1;
