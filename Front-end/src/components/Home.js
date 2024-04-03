@@ -42,7 +42,7 @@ function Home() {
       <div className='row'>
       {/* <div className='col-1  mt-5 ' ></div> */}
       <div className='col-6 mx-5  mt-5'>
-        <img className='img2' src='https://media.discordapp.net/attachments/1008571023047798794/1083347521117618186/maxgunner_american_barber_with_beard_and_tatoos_holding_sicoors_ae34007e-5622-4468-ac52-0558c3dfc54b.png?width=904&height=904'/>
+        <img className='img2' src='/Tattoos.jpeg'/>
       </div>
       <div id='aboutus' className='col-4  mt-5 '>
       <h3 className='mt-5 text-white'>About Us</h3>
