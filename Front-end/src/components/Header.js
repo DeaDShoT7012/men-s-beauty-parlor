@@ -62,7 +62,7 @@ function Header() {
       <Nav  id='items' className="me-auto">
             <Nav.Link className='text-white'><Link to={'/'}>HOME</Link ></Nav.Link>
             <Nav.Link  className='text-white'>SERVICES</Nav.Link>
-              <Nav.Link  className='text-white'><Link to={'/tatoo'}>TATOOS</Link ></Nav.Link>
+              <Nav.Link  className='text-white'>TATOOS</Nav.Link>
             <Nav.Link  className='text-white'><Link to={'/shop'}>SHOP</Link ></Nav.Link>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <Nav.Link ><i  onClick={handleShow} class='fa-solid fa-user'></i></Nav.Link>
